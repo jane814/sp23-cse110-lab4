@@ -29,3 +29,6 @@
     E) false true is converted to number 1
     F) true 2 converted to bool is true
 15. == compares equality with type compariosn while === compares equality with no type conversions
+17. We run the for loop the same amount of times as the length of the array, in this case 3. With each iteration, we apply the function 
+    DoSomething to each value in the array. The values after running through the function DoSomething is 2,4,6. These values are pushed onto newArr and     
+    function modifyArray returns the array. So function modifyArray returns [2,4,6]
